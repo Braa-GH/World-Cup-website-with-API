@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@800&family=Noto+Serif:ital,wght@1,700&family=Playfair+Display:ital,wght@1,700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Noto Serif', serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+.bg-primary{
+    background-color: #9a153a !important; 
+}
+
+.text-primary{
+    color: #9a153a !important;
+}
+
+header{
+    height: 18rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 100%);
+    border-bottom: solid 30px #6a0320;
+}
+
+#header-background{
+    background-image: url("../imgs/pattern.png");
+    line-height: 4.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+#logo-header{
+    direction: rtl;
+    z-index: 3;
+    top: 5%;
+    filter: drop-shadow(5px 0px 30px #111);
+    -webkit-filter: drop-shadow(0px 0px 40px #000);
+}
+
+#img-logo{
+    transform: rotate(-35deg);
+}
+
+.world{
+    font-size:5rem;
+    letter-spacing:0.1rem;
+}
+
+.cup{
+    font-size:4.2rem;
+    letter-spacing:0.1rem;
+}
+
+.qatar-word{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 4.5rem;
+}
+
+
+@media screen and (max-width: 600px) {
+     /*
+        for small screens
+    */
+    
+
+    #header-background{
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+    .world{
+        font-size:4rem;
+        letter-spacing:0.1rem;
+    }
+    
+    .cup{
+        font-size:3.2rem;
+        letter-spacing:0.1rem;
+    }
+
+    .qatar-word{
+        font-size: 2.5rem;
+    }
+  }
+
+  .table thead tr th{
+    padding: 0%;
+  }
+
+ 
